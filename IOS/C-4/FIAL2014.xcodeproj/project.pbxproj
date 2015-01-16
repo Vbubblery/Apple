@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF9AC36B1A184314006AF148 /* JGActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9AC36A1A184314006AF148 /* JGActionSheet.m */; };
+		BFA8FF271A1625AD00AE3CFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA8FF261A1625AD00AE3CFD /* main.m */; };
+		BFA8FF2A1A1625AD00AE3CFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA8FF291A1625AD00AE3CFD /* AppDelegate.m */; };
+		BFA8FF2D1A1625AD00AE3CFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA8FF2C1A1625AD00AE3CFD /* ViewController.m */; };
+		BFA8FF301A1625AD00AE3CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA8FF2E1A1625AD00AE3CFD /* Main.storyboard */; };
+		BFA8FF321A1625AD00AE3CFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA8FF311A1625AD00AE3CFD /* Images.xcassets */; };
+		BFA8FF351A1625AD00AE3CFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA8FF331A1625AD00AE3CFD /* LaunchScreen.xib */; };
+		BFA8FF411A1625AD00AE3CFD /* FIAL2014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA8FF401A1625AD00AE3CFD /* FIAL2014Tests.m */; };
+		BFA8FF4C1A162A3800AE3CFD /* FIALGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA8FF4B1A162A3800AE3CFD /* FIALGameModel.m */; };
+		BFAD69BB1A1C583F004B7020 /* KUNQIANTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAD69BA1A1C583F004B7020 /* KUNQIANTableViewController.m */; };
+		BFB605301A1AC876004E7651 /* KUNQIANGameAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB6052F1A1AC876004E7651 /* KUNQIANGameAreaView.m */; };
+		BFB751EB1A1C733800B6CA65 /* KUNQIANTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB751E91A1C733800B6CA65 /* KUNQIANTableViewCell.m */; };
+		BFB751EC1A1C733800B6CA65 /* KUNQIANTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB751EA1A1C733800B6CA65 /* KUNQIANTableViewCell.xib */; };
+		BFB751F71A1D7D8200B6CA65 /* KUNQIANGameData.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB751F61A1D7D8200B6CA65 /* KUNQIANGameData.m */; };
+		BFC5F6651A2196D900E0E236 /* KUNQIANAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC5F6631A2196D900E0E236 /* KUNQIANAlertViewController.m */; };
+		BFC5F6661A2196D900E0E236 /* KUNQIANAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC5F6641A2196D900E0E236 /* KUNQIANAlertViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFA8FF3B1A1625AD00AE3CFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA8FF191A1625AD00AE3CFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA8FF201A1625AD00AE3CFD;
+			remoteInfo = "C-4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF9AC3691A184314006AF148 /* JGActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGActionSheet.h; sourceTree = "<group>"; };
+		BF9AC36A1A184314006AF148 /* JGActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGActionSheet.m; sourceTree = "<group>"; };
+		BFA8FF211A1625AD00AE3CFD /* FIAL2014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIAL2014.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA8FF251A1625AD00AE3CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA8FF261A1625AD00AE3CFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFA8FF281A1625AD00AE3CFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFA8FF291A1625AD00AE3CFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFA8FF2B1A1625AD00AE3CFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFA8FF2C1A1625AD00AE3CFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFA8FF2F1A1625AD00AE3CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFA8FF311A1625AD00AE3CFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFA8FF341A1625AD00AE3CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BFA8FF3A1A1625AD00AE3CFD /* FIAL2014Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIAL2014Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA8FF3F1A1625AD00AE3CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA8FF401A1625AD00AE3CFD /* FIAL2014Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIAL2014Tests.m; sourceTree = "<group>"; };
+		BFA8FF4A1A162A3800AE3CFD /* FIALGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIALGameModel.h; sourceTree = "<group>"; };
+		BFA8FF4B1A162A3800AE3CFD /* FIALGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIALGameModel.m; sourceTree = "<group>"; };
+		BFAD69B91A1C583F004B7020 /* KUNQIANTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUNQIANTableViewController.h; sourceTree = "<group>"; };
+		BFAD69BA1A1C583F004B7020 /* KUNQIANTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUNQIANTableViewController.m; sourceTree = "<group>"; };
+		BFB6052E1A1AC876004E7651 /* KUNQIANGameAreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUNQIANGameAreaView.h; sourceTree = "<group>"; };
+		BFB6052F1A1AC876004E7651 /* KUNQIANGameAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUNQIANGameAreaView.m; sourceTree = "<group>"; };
+		BFB751E81A1C733800B6CA65 /* KUNQIANTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUNQIANTableViewCell.h; sourceTree = "<group>"; };
+		BFB751E91A1C733800B6CA65 /* KUNQIANTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUNQIANTableViewCell.m; sourceTree = "<group>"; };
+		BFB751EA1A1C733800B6CA65 /* KUNQIANTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KUNQIANTableViewCell.xib; sourceTree = "<group>"; };
+		BFB751F51A1D7D8200B6CA65 /* KUNQIANGameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUNQIANGameData.h; sourceTree = "<group>"; };
+		BFB751F61A1D7D8200B6CA65 /* KUNQIANGameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUNQIANGameData.m; sourceTree = "<group>"; };
+		BFC5F6621A2196D900E0E236 /* KUNQIANAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUNQIANAlertViewController.h; sourceTree = "<group>"; };
+		BFC5F6631A2196D900E0E236 /* KUNQIANAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUNQIANAlertViewController.m; sourceTree = "<group>"; };
+		BFC5F6641A2196D900E0E236 /* KUNQIANAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KUNQIANAlertViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA8FF1E1A1625AD00AE3CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA8FF371A1625AD00AE3CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA8FF181A1625AD00AE3CFD = {
+			isa = PBXGroup;
+			children = (
+				BFA8FF231A1625AD00AE3CFD /* FIAL2014 */,
+				BFA8FF3D1A1625AD00AE3CFD /* FIAL2014Tests */,
+				BFA8FF221A1625AD00AE3CFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA8FF221A1625AD00AE3CFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA8FF211A1625AD00AE3CFD /* FIAL2014.app */,
+				BFA8FF3A1A1625AD00AE3CFD /* FIAL2014Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA8FF231A1625AD00AE3CFD /* FIAL2014 */ = {
+			isa = PBXGroup;
+			children = (
+				BFB6052D1A1AC7C1004E7651 /* View */,
+				BFA8FF4E1A16373200AE3CFD /* Controller */,
+				BFA8FF4D1A162B8200AE3CFD /* Model */,
+				BFA8FF311A1625AD00AE3CFD /* Images.xcassets */,
+				BFA8FF241A1625AD00AE3CFD /* Supporting Files */,
+				BFB751F51A1D7D8200B6CA65 /* KUNQIANGameData.h */,
+				BFB751F61A1D7D8200B6CA65 /* KUNQIANGameData.m */,
+			);
+			path = FIAL2014;
+			sourceTree = "<group>";
+		};
+		BFA8FF241A1625AD00AE3CFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9AC3691A184314006AF148 /* JGActionSheet.h */,
+				BF9AC36A1A184314006AF148 /* JGActionSheet.m */,
+				BFA8FF251A1625AD00AE3CFD /* Info.plist */,
+				BFA8FF261A1625AD00AE3CFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFA8FF3D1A1625AD00AE3CFD /* FIAL2014Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA8FF401A1625AD00AE3CFD /* FIAL2014Tests.m */,
+				BFA8FF3E1A1625AD00AE3CFD /* Supporting Files */,
+			);
+			path = FIAL2014Tests;
+			sourceTree = "<group>";
+		};
+		BFA8FF3E1A1625AD00AE3CFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA8FF3F1A1625AD00AE3CFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFA8FF4D1A162B8200AE3CFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFA8FF4A1A162A3800AE3CFD /* FIALGameModel.h */,
+				BFA8FF4B1A162A3800AE3CFD /* FIALGameModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BFA8FF4E1A16373200AE3CFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFA8FF281A1625AD00AE3CFD /* AppDelegate.h */,
+				BFA8FF291A1625AD00AE3CFD /* AppDelegate.m */,
+				BFA8FF2B1A1625AD00AE3CFD /* ViewController.h */,
+				BFA8FF2C1A1625AD00AE3CFD /* ViewController.m */,
+				BFAD69B91A1C583F004B7020 /* KUNQIANTableViewController.h */,
+				BFAD69BA1A1C583F004B7020 /* KUNQIANTableViewController.m */,
+				BFC5F6621A2196D900E0E236 /* KUNQIANAlertViewController.h */,
+				BFC5F6631A2196D900E0E236 /* KUNQIANAlertViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BFB6052D1A1AC7C1004E7651 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFA8FF331A1625AD00AE3CFD /* LaunchScreen.xib */,
+				BFA8FF2E1A1625AD00AE3CFD /* Main.storyboard */,
+				BFC5F6641A2196D900E0E236 /* KUNQIANAlertViewController.xib */,
+				BFB751E81A1C733800B6CA65 /* KUNQIANTableViewCell.h */,
+				BFB751E91A1C733800B6CA65 /* KUNQIANTableViewCell.m */,
+				BFB751EA1A1C733800B6CA65 /* KUNQIANTableViewCell.xib */,
+				BFB6052E1A1AC876004E7651 /* KUNQIANGameAreaView.h */,
+				BFB6052F1A1AC876004E7651 /* KUNQIANGameAreaView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA8FF201A1625AD00AE3CFD /* FIAL2014 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA8FF441A1625AD00AE3CFD /* Build configuration list for PBXNativeTarget "FIAL2014" */;
+			buildPhases = (
+				BFA8FF1D1A1625AD00AE3CFD /* Sources */,
+				BFA8FF1E1A1625AD00AE3CFD /* Frameworks */,
+				BFA8FF1F1A1625AD00AE3CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FIAL2014;
+			productName = "C-4";
+			productReference = BFA8FF211A1625AD00AE3CFD /* FIAL2014.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA8FF391A1625AD00AE3CFD /* FIAL2014Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA8FF471A1625AE00AE3CFD /* Build configuration list for PBXNativeTarget "FIAL2014Tests" */;
+			buildPhases = (
+				BFA8FF361A1625AD00AE3CFD /* Sources */,
+				BFA8FF371A1625AD00AE3CFD /* Frameworks */,
+				BFA8FF381A1625AD00AE3CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA8FF3C1A1625AD00AE3CFD /* PBXTargetDependency */,
+			);
+			name = FIAL2014Tests;
+			productName = "C-4Tests";
+			productReference = BFA8FF3A1A1625AD00AE3CFD /* FIAL2014Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA8FF191A1625AD00AE3CFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Bubble;
+				TargetAttributes = {
+					BFA8FF201A1625AD00AE3CFD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BFA8FF391A1625AD00AE3CFD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BFA8FF201A1625AD00AE3CFD;
+					};
+				};
+			};
+			buildConfigurationList = BFA8FF1C1A1625AD00AE3CFD /* Build configuration list for PBXProject "FIAL2014" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA8FF181A1625AD00AE3CFD;
+			productRefGroup = BFA8FF221A1625AD00AE3CFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA8FF201A1625AD00AE3CFD /* FIAL2014 */,
+				BFA8FF391A1625AD00AE3CFD /* FIAL2014Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA8FF1F1A1625AD00AE3CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB751EC1A1C733800B6CA65 /* KUNQIANTableViewCell.xib in Resources */,
+				BFA8FF301A1625AD00AE3CFD /* Main.storyboard in Resources */,
+				BFA8FF351A1625AD00AE3CFD /* LaunchScreen.xib in Resources */,
+				BFA8FF321A1625AD00AE3CFD /* Images.xcassets in Resources */,
+				BFC5F6661A2196D900E0E236 /* KUNQIANAlertViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA8FF381A1625AD00AE3CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA8FF1D1A1625AD00AE3CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB751F71A1D7D8200B6CA65 /* KUNQIANGameData.m in Sources */,
+				BFC5F6651A2196D900E0E236 /* KUNQIANAlertViewController.m in Sources */,
+				BFA8FF2D1A1625AD00AE3CFD /* ViewController.m in Sources */,
+				BFB751EB1A1C733800B6CA65 /* KUNQIANTableViewCell.m in Sources */,
+				BFB605301A1AC876004E7651 /* KUNQIANGameAreaView.m in Sources */,
+				BFA8FF4C1A162A3800AE3CFD /* FIALGameModel.m in Sources */,
+				BFA8FF2A1A1625AD00AE3CFD /* AppDelegate.m in Sources */,
+				BFA8FF271A1625AD00AE3CFD /* main.m in Sources */,
+				BF9AC36B1A184314006AF148 /* JGActionSheet.m in Sources */,
+				BFAD69BB1A1C583F004B7020 /* KUNQIANTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA8FF361A1625AD00AE3CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA8FF411A1625AD00AE3CFD /* FIAL2014Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA8FF3C1A1625AD00AE3CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA8FF201A1625AD00AE3CFD /* FIAL2014 */;
+			targetProxy = BFA8FF3B1A1625AD00AE3CFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFA8FF2E1A1625AD00AE3CFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA8FF2F1A1625AD00AE3CFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFA8FF331A1625AD00AE3CFD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA8FF341A1625AD00AE3CFD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFA8FF421A1625AD00AE3CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BFA8FF431A1625AD00AE3CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA8FF451A1625AD00AE3CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/FIAL2014/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = FIAL2014;
+			};
+			name = Debug;
+		};
+		BFA8FF461A1625AD00AE3CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/FIAL2014/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = FIAL2014;
+			};
+			name = Release;
+		};
+		BFA8FF481A1625AE00AE3CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FIAL2014Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = FIAL2014Tests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/C-4.app/C-4";
+			};
+			name = Debug;
+		};
+		BFA8FF491A1625AE00AE3CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FIAL2014Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = FIAL2014Tests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/C-4.app/C-4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA8FF1C1A1625AD00AE3CFD /* Build configuration list for PBXProject "FIAL2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA8FF421A1625AD00AE3CFD /* Debug */,
+				BFA8FF431A1625AD00AE3CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA8FF441A1625AD00AE3CFD /* Build configuration list for PBXNativeTarget "FIAL2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA8FF451A1625AD00AE3CFD /* Debug */,
+				BFA8FF461A1625AD00AE3CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA8FF471A1625AE00AE3CFD /* Build configuration list for PBXNativeTarget "FIAL2014Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA8FF481A1625AE00AE3CFD /* Debug */,
+				BFA8FF491A1625AE00AE3CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA8FF191A1625AD00AE3CFD /* Project object */;
+}
