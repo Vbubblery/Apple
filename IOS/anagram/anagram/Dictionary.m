@@ -2,7 +2,7 @@
 //  Dictionary.m
 //  anagram
 //
-//  Created by li wei on 13/10/2014.
+//  Created by li wei && Bubble_000 on 13/10/2014.
 //  Copyright (c) 2014 li wei. All rights reserved.
 //
 
